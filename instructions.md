@@ -73,7 +73,7 @@ all the things that have to be done to make the competition work, but we're
 going to break it into bite-sized pieces so that we understand everything we
 need to do.
 
-First, clikc on the "Host" tab and in the "Host" tab, click "Launch Checklist."
+First, click on the "Host" tab and in the "Host" tab, click "Launch Checklist."
 It should look like ![launch-checklist](figures/launch-checklist.PNG).
 
 The best approach to get this competition running is to just follow each step
@@ -89,13 +89,13 @@ After clicking that link, you will be taken to the URL
 component of the competition, we need to select a scoring metric, we need
 to provide the solution file, and we need to give an example of a valid
 submission. For the scoring metric, select "CategorizationAccuracy." This 
-can be found my clicking the drop-down in the "Scoring Metric" box. Aftering
+can be found my clicking the drop-down in the "Scoring Metric" box. After
 taking this action, your page should look like this
 ![category-acc](figures/category-acc.PNG). 
 
 Next we need to upload the solution file. This can be found in the file 
 `data/solution_file.csv` in the [data](/data) folder which
-is provided with the repository. To uplaod the file click "Upload solution
+is provided with the repository. To upload the file click "Upload solution
 file" and provide a link to the solution file. If this was done correctly, you
 should see ![solution-file-res](figures/solution-file-result.PNG).
 
@@ -132,7 +132,7 @@ After clicking the link you should be at the URL
 <https://www.kaggle.com/c/example-competition/data>. To upload the first
 version of the data files, click the button "Upload first version"
 ![upload-data](figures/upload-data.PNG). For this part, we're going to
-uplaod the following files:
+upload the following files:
 
 1. `data/X_train.csv`
 2. `data/X_test.csv`
@@ -147,7 +147,7 @@ link "Select Files to Upload." After doing so, you will have to provide
 "Version notes." For this instance, just type: "First version." After taking
 these steps it should look like ![data-upload-res](figures/data-upload-result.PNG).
 
-One quick note, Kaggle, as I discovered expectes the uploaded .csv files to
+One quick note, Kaggle, as I discovered expects the uploaded .csv files to
 have headers otherwise it will treat the first row of data as the header. There
 might be a way to adjust this setting, but it's probably easier to just provide
 a header.
@@ -178,7 +178,7 @@ After adjusting the date, you should now see
 All that is left to do is provide information in "Description",
 "Data Description", and "Evaluation" tabs. The purpose of these tabs is to
 give the users an idea of what the competition entails (i.e., motivation, 
-intersting problems they might see, etc.), the format of the data and what
+interesting problems they might see, etc.), the format of the data and what
 things they should use for the competition, and how their submissions will
 be evaluated, respectively. These items are very dependent upon the particular
 competition, so I won't provide do anything on this front. It's something that
